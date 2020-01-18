@@ -1,0 +1,54 @@
+body {
+    color: #313130;
+    line-height: 1.5;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 4px 4px 15px #dedede;
+}
+
+div.outer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#name-label,
+#email-label,
+#number-label,
+span,
+label[for=dropdown],
+label[for=comments] {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10em 1fr;
+    column-gap: 1em;
+    text-align: right;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    margin-left: 11em;
+}
+
+label > input[type=radio],
+label > input[type=checkbox] {
+    margin-right: 1em;
+}
+
+input.inputs, select {
+    height: 20px;
+}
+
+input, select, textarea, p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+}
